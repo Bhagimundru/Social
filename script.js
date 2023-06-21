@@ -19,5 +19,4 @@ function allowuser(form) {
         alert("Valid User");
         form.action = "Landingpage.html";
         alert("Logged in user id :"+b);
-    return b;
 }
