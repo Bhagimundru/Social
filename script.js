@@ -1,14 +1,14 @@
-type="text/javascript">
-  (function(n,t,a,e,co){var i="aptrinsic";n[i]=n[i]||function(){
+(function(n,t,a,e,co)
+{var i="aptrinsic";n[i]=n[i]||function(){
       (n[i].q=n[i].q||[]).push(arguments)},n[i].p=e;n[i].c=co;
     var r=t.createElement("script");r.async=!0,r.src=a+"?a="+e;
     var c=t.getElementsByTagName("script")[0];c.parentNode.insertBefore(r,c)
-  })(window,document,"https://web-sdk.aptrinsic.com/api/aptrinsic.js","AP-MTUFRPVCOSHV-2");
+})(window,document,"https://web-sdk.aptrinsic.com/api/aptrinsic.js","AP-GAPBOYI51MQU-2");
 
 function allowuser(form) {
     let a = document.getElementById("user").value;
     var b="";
-    b= a.substr(8,5);
+    b= a.substr(1,5);
     var id = b;
     //passing user and account objects:
     aptrinsic("identify",
