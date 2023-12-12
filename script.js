@@ -1,4 +1,4 @@
-type="text/javascript">
+/*type="text/javascript">
 !function(){"use strict";var sdkBaseUrl="https://cdn.rudderlabs.com/v3";var sdkName="rsa.min.js";var asyncScript=true
 ;window.rudderAnalyticsBuildType="legacy",window.rudderanalytics=[]
 ;var e=["setDefaultInstanceKey","load","ready","page","track","identify","alias","group","reset","setAnonymousId","startSession","endSession"]
@@ -14,8 +14,13 @@ document.head?document.head.appendChild(e):document.body.appendChild(e)
 },"undefined"==typeof Promise||"undefined"==typeof globalThis){var d=document.createElement("script")
 ;d.src="https://polyfill.io/v3/polyfill.min.js?features=Symbol%2CPromise&callback=rudderAnalyticsMount",
 d.async=asyncScript,document.head?document.head.appendChild(d):document.body.appendChild(d)}else{
-window.rudderAnalyticsMount()}window.rudderanalytics.load("2Xx5eab4YxSb0TMDi6UDQnrvkGL","https://gainsightxhbpd.dataplane.rudderstack.com",{})}();    
+window.rudderAnalyticsMount()}window.rudderanalytics.load("2Xx5eab4YxSb0TMDi6UDQnrvkGL","https://gainsightxhbpd.dataplane.rudderstack.com",{})}();   */ 
 
+  (function(n,t,a,e,co){var i="aptrinsic";n[i]=n[i]||function(){
+      (n[i].q=n[i].q||[]).push(arguments)},n[i].p=e;n[i].c=co;
+    var r=t.createElement("script");r.async=!0,r.src=a+"?a="+e;
+    var c=t.getElementsByTagName("script")[0];c.parentNode.insertBefore(r,c)
+  })(window,document,"https://web-sdk.aptrinsic.com/api/aptrinsic.js","AP-OM2DTW6NF8A7-2",{ "iframeModeEnabled": false });
 
 function allowuser(form) {
     let a = document.getElementById("user").value;
