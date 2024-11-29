@@ -70,7 +70,7 @@ function allowuser(form) {
         },
         {
             //Account Fields
-            "id": "Account6", //Required
+            "id": "Account6 ", //Required
         });*/
         alert("Valid User");
         form.action = "Landingpage.html";
