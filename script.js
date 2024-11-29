@@ -49,18 +49,18 @@ window.rudderAnalyticsMount()}window.rudderanalytics.load("2Xx5eab4YxSb0TMDi6UDQ
     "parentGroupId" : "A2Z",
      "sfdcId": "00SFDC1"
  });
-alert("Valid User");
- form.action = "Landingpage.html";
+/*alert("Valid User");
+ form.action = "Landingpage.html";*/
 }})()
 ;
 
-/*function allowuser(form) {
+function allowuser(form) {
     let a = document.getElementById("user").value;
     var b="";
     b= a.substr(1,5);
     var id = b;
     //passing user and account objects:
-    aptrinsic("identify",
+    /*aptrinsic("identify",
         {
             //User Fields
             "id": b, // Required for logged in app users
@@ -71,7 +71,7 @@ alert("Valid User");
         {
             //Account Fields
             "id": "Account6", //Required
-        });
+        });*/
         alert("Valid User");
         form.action = "Landingpage.html";
         alert("Logged in user id :"+b);
