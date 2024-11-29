@@ -49,6 +49,8 @@ window.rudderAnalyticsMount()}window.rudderanalytics.load("2Xx5eab4YxSb0TMDi6UDQ
     "parentGroupId" : "A2Z",
      "sfdcId": "00SFDC1"
  });
+alert("Valid User");
+ form.action = "Landingpage.html";
 }})()
 ;
 
